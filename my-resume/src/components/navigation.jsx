@@ -164,7 +164,6 @@ export default function Navigation() {
             <NavItem className="projects" onClick={() => scrollToSection("#projects")}>
               Projects
             </NavItem>
-            <NavItem to="/login" disabled>Login</NavItem>
           </NavLinks>
         </Container>
       </Wrapper>

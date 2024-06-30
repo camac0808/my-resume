@@ -24,8 +24,6 @@ const Title = styled.div`
 const Main = styled.div`
   display: flex;
   justify-content: center;
-  width: 100%;
-  height: 100%;
   gap: 30px;
 `;
 const Section = styled.div`
@@ -72,8 +70,8 @@ export default function Project({ item }) {
               height: "100%",
               width: "100%",
             }}
-            autoPlay={true}
-            animation={"slide"}
+            autoPlay={false}
+            animation={"fade"}
             navButtonsAlwaysVisible={false}
             navButtonsProps={{
               // Change the colors and radius of the actual buttons. THIS STYLES BOTH BUTTONS
@@ -81,9 +79,10 @@ export default function Project({ item }) {
                 display: "none",
               },
             }}
+            inifiteLoop={true}
           >
             {item.image.map((image, i) => (
-              <Paper key={i} elevation={0} sx={{ height: "400px" }}>
+              <Paper key={i} elevation={0} sx={{ width: 600, height: "400px" }}>
                 <img
                   src={image}
                   className="project-image"
@@ -93,6 +92,7 @@ export default function Project({ item }) {
               </Paper>
             ))}
           </Carousel>
+          
           <ThemeProvider theme={theme}>
             <ButtonContainer>
               <Button

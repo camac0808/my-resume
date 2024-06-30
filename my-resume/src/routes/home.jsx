@@ -20,7 +20,6 @@ const Wrapper = styled.div`
 `;
 const Section = styled.section`
   height: 100vh;
-  border: 2px solid black;
   color: white;
 
   &:nth-child(1) {

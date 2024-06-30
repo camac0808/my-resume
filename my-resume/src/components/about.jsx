@@ -58,9 +58,9 @@ export default function About() {
       <Title data-aos="fade-left">ABOUT ME</Title>
       <Container>
         <Description data-aos="fade-right">
-          안녕하세요.
+          안녕하세요!
           <br />
-          계발하는 개발자 최현식입니다.
+          프론트엔드 개발자를 꿈꾸는 최현식입니다.
           <br />
           새로운 기술과 언어를 배우는 것을 즐깁니다.
           <br />

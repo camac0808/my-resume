@@ -38,14 +38,6 @@ function App() {
     init();
   }, []);
 
-  // useEffect(() => {
-  //   if (user) {
-  //     router.navigate("/");
-  //   } else {
-  //     router.navigate("/login");
-  //   }
-  // }, [user, router]);
-
   return <Wrapper>{isLoading ? <LoadingScreen /> : <RouterProvider router={router} />}</Wrapper>;
 }
 

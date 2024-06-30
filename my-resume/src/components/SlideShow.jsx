@@ -13,24 +13,15 @@ const settings = {
   autoplaySpeed: 2500,
   pauseOnHover: true,
 };
-const Wrapper = styled.div`
- 
-`;
+const Wrapper = styled.div``;
 
 export default function SlideShow() {
   return (
     <Wrapper>
       <Slider {...settings}>
-        {/* {image.map((item, i) => {
-          return (
-            <div key={i}>
-              <img src={item} alt="project" />
-            </div>
-          );
-        })} */}
-          <img src="./포트폴리오1.png" alt="project" />
-          <img src="./포트폴리오2.png" alt="project" />
-          <img src="./포트폴리오3.png" alt="project" />
+        <img src="./포트폴리오1.png" alt="project" />
+        <img src="./포트폴리오2.png" alt="project" />
+        <img src="./포트폴리오3.png" alt="project" />
       </Slider>
     </Wrapper>
   );
