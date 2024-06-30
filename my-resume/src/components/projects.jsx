@@ -46,7 +46,7 @@ export default function Projects() {
       link: "https://my-resume-ab043.web.app",
     },
     {
-      itle: "Movie Table App",
+      title: "Movie Table App",
       date: "2023.11 (1인프로젝트)",
       image: ["./movie1.png", "./movie2.png"],
       description: [

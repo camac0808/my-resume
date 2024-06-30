@@ -70,7 +70,7 @@ export default function Project({ item }) {
               height: "100%",
               width: "100%",
             }}
-            autoPlay={false}
+            autoPlay={true}
             animation={"fade"}
             navButtonsAlwaysVisible={false}
             navButtonsProps={{
