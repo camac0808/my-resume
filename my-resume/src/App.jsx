@@ -28,7 +28,7 @@ function App() {
     {
       path: "/",
       element: <Navigation />,
-      children: [{ path: "/", element: <Home /> }],
+      children: [{ path: "/", element: <Home /> }], 
       errorElement: <ErrorBoundary />,
     },
     // { path: "/login", element: <Login /> },
